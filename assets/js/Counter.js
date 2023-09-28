@@ -7,7 +7,7 @@ function atualizarContador() {
   
     if (diferenca <= 0) {
       clearInterval(intervalo);
-      document.getElementById('contador').innerHTML = 'Contagem regressiva encerrada!';
+      document.getElementById('yas').innerText = 'Contagem regressiva encerrada!';
       return;
     }
     else{
