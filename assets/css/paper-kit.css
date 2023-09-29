@@ -91,7 +91,7 @@
   z-index: 1;
   float: left;
   width: 50% !important;
-  background-color: #66615B;
+  background-color: #ffffff;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
@@ -251,11 +251,11 @@
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-handle-off {
-  background-color: #66615B;
+  background-color: #ffffff;
 }
 
 .bootstrap-switch.bootstrap-switch-off .bootstrap-switch-handle-on {
-  background-color: #cfcfca;
+  background-color: #ffffff;
 }
 
 .bootstrap-switch.bootstrap-switch-on .bootstrap-switch-danger {
