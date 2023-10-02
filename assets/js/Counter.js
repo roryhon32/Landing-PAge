@@ -17,8 +17,13 @@ function atualizarContador() {
     const horas = Math.floor((segundos % (3600 * 24)) / 3600);
     const minutos = Math.floor((segundos % 3600) / 60);
     const segundosRestantes = segundos % 60;
+    let contadorTexto = `${dias} Dias ${horas} horas ${minutos} minutos ${segundosRestantes} segundos`;
+if (horas===0) {
+  contadorTexto=`${dias} Dias  ${minutos} minutos ${segundosRestantes} segundos`
+} else {
+  contadorTexto = `${dias} Dias ${horas} horas ${minutos} minutos ${segundosRestantes} segundos`;
+}
   
-    const contadorTexto = `${dias} Dias ${horas} horas ${minutos} minutos ${segundosRestantes} segundos`;
     document.getElementById('yas').innerText = contadorTexto;
     }}
 
