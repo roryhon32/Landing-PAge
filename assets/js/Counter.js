@@ -3,7 +3,7 @@ function atualizarContador() {
     const dataFinal = new Date('2023-12-31T22:00:00');
     const agora = new Date();
     const diferenca = dataFinal - agora;
-  console.log(diferenca)
+  
   
     if (diferenca <= 0) {
       clearInterval(intervalo);
