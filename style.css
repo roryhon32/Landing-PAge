@@ -50,3 +50,17 @@ html{
 	animation-delay:0s;
 	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
+
+
+.galery{
+    height: 1000px;
+    box-sizing: border-box;
+}
+.c{
+    height: 700px;
+}
+@media (max-width: 768px) {
+   .c{
+    height: 500px;
+   }
+  }
