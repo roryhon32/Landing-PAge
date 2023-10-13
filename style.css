@@ -141,3 +141,8 @@ html{
       transform: translate(0px , 0px) rotate(-45deg)
     }
   }
+
+  .loading--hidden{
+  opacity: 0;
+  visibility: 0;
+  }
