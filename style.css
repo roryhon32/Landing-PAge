@@ -26,7 +26,7 @@ html{
 }
 
 .arrows path {
-	stroke: #fff;
+	stroke: #000000;
 	fill: transparent;
 	stroke-width: 1px;	
 	animation: arrow 2s infinite;
@@ -146,3 +146,5 @@ html{
   opacity: 0;
   visibility: 0;
   }
+
+  
