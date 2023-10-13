@@ -69,7 +69,7 @@
   cursor: pointer;
   display: inline-block !important;
   height: 100%;
-  color: #fff;
+  color: #000000;
   padding: 6px 12px;
   font-size: 11px;
   text-indent: -5px;
@@ -91,7 +91,7 @@
   z-index: 1;
   float: left;
   width: 50% !important;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary,
@@ -340,7 +340,7 @@
 }
 
 .noUi-origin[style^="left: 0"] .noUi-handle {
-  background-color: #fff;
+  background-color: #000000;
   border: 2px solid #c8c8c8;
 }
 

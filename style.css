@@ -147,4 +147,6 @@ html{
   visibility: 0;
   }
 
-  
+  .navbar.navbar-transparent .navbar-toggler .navbar-toggler-bar{
+    background-color: black!important;
+  }
